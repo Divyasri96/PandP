@@ -1,0 +1,103 @@
+.PlaceLocator-panel {
+  border: 1px solid #ccc;
+  overflow: auto;
+}
+
+.PlaceLocator-panel .place-list {
+  margin: 0;
+  padding: 0;
+}
+
+.PlaceLocator-panel .place-list li,
+.PlaceLocator-panel .directions-panel {
+  padding: 5px;
+}
+.PlaceLocator-panel .directions-panel {
+  font-size: 0.8em;
+}
+
+.PlaceLocator-panel .place-list li.place:hover {
+  cursor: pointer;
+  background: #eee;
+}
+
+.PlaceLocator-panel .place-list li.highlighted,
+.PlaceLocator-panel .place-list li.highlighted:hover {
+  background: #ccf;
+}
+
+.PlaceLocator-panel .directions {
+  display: none;
+}
+
+.PlaceLocator-panel .location-search {
+  padding: 5px;
+}
+
+.PlaceLocator-panel .location-search input {
+  width: 95%;
+}
+
+.PlaceLocator-panel .location-search h4 {
+  font-size: 0.8em;
+  margin: 0;
+  padding: 0;
+}
+
+.PlaceLocator-panel .place-list .no-places {
+  color: grey;
+}
+
+.PlaceLocator-panel .place .features {
+  display: none;
+}
+
+.PlaceLocator-panel .feature-filter {
+  overflow: hidden;
+}
+
+.PlaceLocator-panel .feature-filter label {
+  display: block;
+  font-size: 0.8em;
+  margin: 0 0.4em;
+  float: left;
+}
+
+.place .title {
+  font-weight: bold;
+}
+
+.place .address,
+.place .phone,
+.place .web,
+.place .misc {
+  font-size: 80%;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  display: block;
+}
+
+.place .features {
+  overflow: hidden;
+  color: grey;
+  margin: 0;
+  padding: 0;
+  font-size: 70%;
+  max-width: 250px;
+}
+
+.place .features li {
+  display: inline;
+  float: left;
+  padding-right: 0.8em;
+}
+
+.place .web a {
+  color: green
+}
+
+.place .action {
+  font-size: 0.8em;
+  color: green;
+  margin-right: 0.5em;
+}

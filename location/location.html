@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Locator</title>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCWIbI98LQ32DYlfNCOrTgOETAtZFHa27g"></script>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js">
+    </script>
+    <script src="js/locator.js"></script>
+    <script src="locator-static-ds2.js"></script>
+    <script src="custom.js"></script>
+    <link rel="stylesheet" href="css/locator.css">
+    <style>
+      body { font-family: sans-serif; }
+      #map-canvas, #panel { height: 500px; }
+      #panel { width: 300px; float: left; margin-right: 10px; }
+      #panel .feature-filter label { width: 130px; }
+      p.attribution, p.attribution a { color: #666; }
+      .place .hours { color: grey; }
+    </style>
+  </head>
+  <body>
+    <h1>Place Locator</h1>
+           <p><b>Printed Route Maps</b><br>Route maps are available at the MiWay Fares Booths at City Centre Transit Terminal and Islington Subway Station) for $2.00.</p><br/>
+                  <p><b>Download Digital Route Maps</b><br>All of the following maps require Adobe Acrobat Reader to be installed on your computer. This software is free and available from the Adobe Website.If you require this information in an alternative format please contact us or call 905-615-4636 (INFO) for additional assistance. </p><br/>
+    <div id="panel"></div>
+    <div id="map-canvas"></div>  
+  </body>
+</html>
